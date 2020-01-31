@@ -1,0 +1,385 @@
+@charset "utf-8";
+
+body {
+  background-repeat : repeat-x;
+  margin : 0px 0px;
+  font-family:メイリオ,ＭＳ Ｐゴシック,Helvetica,Arial,"Hiragino Sans","Hiragino kaku Gothic Pro",osaka,Meiryo,sans-serif;
+  background-color : white;
+  background-image : url(../images/bg.gif);
+  background-attachment : fixed;
+  height : 12000px;
+}
+
+#container {
+  background : url('../images/header_back.gif') no-repeat;
+  background-position: 50% 0%;
+  text-align : center;
+  padding : 0px 0px 0px 0px;
+  width : 826px;
+  height : 12000px;
+  margin : 0px auto;
+  background-color : white;
+}
+
+h1 {
+  font-size: 100%;
+  color: white;
+  float: left;
+  padding: 0px 10px;
+}
+
+header {
+  background : url('../images/top_banner.gif') no-repeat;
+  background-position: 3px 35px;
+  height: 325px;
+}
+
+nav {
+  float: left;
+  margin-left: 3px;
+  width: 200Px;
+  height: 2000px;
+}
+
+nav > ul {
+  color: #333;
+  list-style-type: none;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 2em;
+  margin: 10px 0;
+}
+
+.pagetop {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+main {
+  float: right;
+  width: 620px;
+  height: 10840px;
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.L1-1 {
+  text-align: right;
+  font-size: 14px;
+  color: #ff0000;
+}
+
+.picture {
+  width : 172px;
+  height : 130px;
+  border-bottom-width : 1px;
+  border-bottom-style : solid;
+  border-bottom-color : silver;
+  text-align : center;
+}
+
+.details {
+  width: 253px;
+  text-align: left;
+  border-bottom-width : 1px;
+  border-bottom-style : solid;
+  border-bottom-color: silver;
+  font-size: 14px;
+  font-weight: bold;
+  color: #585858;
+  line-height: 8px;
+}
+
+h3 {
+  font-size : 20px;
+  color : #00a200;
+  font-weight : bold;
+  text-align: left;
+}
+
+.price {
+  width : 180px;
+  text-align : center;
+  border-bottom-width : 1px;
+  border-bottom-style : solid;
+  border-bottom-color : silver;
+  line-height: 10px
+}
+
+.price2 {
+  font-size : 16px;
+  color : red;
+  font-weight : bold;
+}
+
+#price3 {
+  margin: 0 0;
+  line-height: 20px;
+}
+
+#banner {
+  text-align: center;
+  line-height: 2;
+}
+
+.L1-2 {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 130%;
+}
+
+#L2 {
+  margin-top: 30px;
+}
+
+.parts {
+  font-weight: bold;
+  font-size: 16px;
+  color: #585858;
+}
+
+.ac-details{
+  text-align : left;
+  padding-left : 10px;
+  font-size : 14px;
+  font-weight : bold;
+  font-family: Arial, sans-serif;
+  
+}
+
+.accessory {
+  color : #585858;
+  height : 24px;
+}
+
+.b-price {
+  height : 24px;
+  color : red;
+}
+
+.comment {
+  color : #585858;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.balancer {
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  line-height: 80%;
+}
+
+.isolater {
+  color : #585858;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  line-height: 120%;
+}
+
+.kansou {
+  font-size: 14px;
+  width: 314px;
+  height: 189px;
+  line-height: 140%;
+}
+
+.yasu {
+  padding: 80px;
+}
+
+#feature {
+  font-size: 14px;
+  line-height: 160%;
+  padding: 10px;
+}
+
+#company {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+footer {
+  float: right;
+  width: 620px;
+  height: 60px;
+  text-align: center;
+  font-size: 12px;
+  color: silver;
+}
+
+@media (max-width:767px){
+
+  html{
+    padding: 0px;
+    margin: 0px;
+  }
+  body{
+    background: none;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+  }
+#container{
+  max-width: 100%;
+  margin-top: -5px;
+}
+h1 {
+  font-size: 100%;
+  color: white;
+  float: inherit;
+  padding: 6px 0px;
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+}
+header {
+  background: url(../images/top_banner.gif) no-repeat center;
+  height: 200px;
+  text-align: center;
+  background-size: 100%;
+  /* max-width: 320px; */
+  margin: 0% 2%;
+}
+.picture, .details, .price{
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+td{  
+  height: auto;
+}
+main{
+  float: initial;
+  width: 94%;
+  padding: 0px;
+  margin: 0px auto;
+}
+main .reponsive-table{
+  width: 300px;
+  margin:0px auto;
+}
+.kansou{
+  width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+hr{
+  width: 100%!important;
+}
+nav{
+ height: auto;
+ float: none;
+ margin: 0px auto;
+}
+nav img{
+  width: 80%;
+}
+.L1-1{
+  text-align: justify;
+}
+ h2{
+  text-align: center;
+}
+.yasu{
+  padding-left: 0;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 60%;
+}
+img{
+  width:100%;
+  height: auto;
+}
+table{
+  width: 100%;
+}
+.price img,
+.picture img{
+  width: auto;
+}
+.price{
+  padding-bottom: 20px;
+}
+footer{
+  float: initial;
+  width: 100%;
+}
+h3{
+  text-align: center;
+}
+
+.hidden-xs{
+  display: none;
+}
+.pagetop{
+  width: 50px;
+  bottom: 0px;
+  right:10px
+}
+.L1-2 {
+  font-size: 14px;
+  text-align: justify;
+}
+.parts{
+  font-size: 14px;
+}
+.price2 span{
+  font-size: 24px!important;
+}
+table img {
+  /* width: auto; */
+}
+.mobile {
+  display: block!important;
+}
+.desktop {
+  display: none;
+}
+.telement td{
+  display: block;
+}
+.telement img {
+  width: 50%!important;
+}
+.mobile{
+  width: fit-content;
+    margin: 0 auto;
+}
+article td {
+  display: block;
+}
+.kansou_img {
+  width: 60%;
+}
+p.comment {
+  text-align: justify;
+}
+.kansou{
+  text-align: justify;
+}
+#feature{
+  text-align: justify;
+}
+.l_img{
+  margin: 0;
+}
+}
+.mobile {
+  display: none;
+}
